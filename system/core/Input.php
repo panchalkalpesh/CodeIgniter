@@ -811,7 +811,8 @@ class CI_Input {
 	 */
 	public function is_cli_request()
 	{
-		return is_cli();
+		// return is_cli();
+		// this line is edited as on 13th May, 2014
 	}
 
 	// --------------------------------------------------------------------
